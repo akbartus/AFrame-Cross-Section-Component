@@ -22,10 +22,10 @@ cross-section="distance: 3; animationTime: 4000"
 3. Make sure to add click event:
 
 ```
-For mouse: 
+<b>For mouse:</b> 
 <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
 
-For VR controllers: 
+<b>For VR controllers:</b> 
 <a-entity class="controller" laser-controls="hand: left" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 <a-entity class="controller" laser-controls="hand: right" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 ``` 
@@ -34,6 +34,8 @@ For VR controllers:
 The project is powered by AFrame.
 
 ### **Credits**
+The 3D model of the building was created by <b>Nikitos & 3130</b> and can be found <a href="https://sketchfab.com/3d-models/office-building-af9782245c134c21ae0c8df7f57077e6">here</a>. 
+
 
 ### **Demo**
 To see the application at work: [Demo application](https://cross-section-component.glitch.me/)
