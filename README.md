@@ -20,12 +20,12 @@ If necessary define the parameters of the attribute. It has two parameters: dist
 cross-section="distance: 3; animationTime: 4000" 
 ```
 3. Make sure to add click event:
-
-```
 <b>For mouse:</b> 
+```
 <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
-
-<b>For VR controllers:</b> 
+```
+<b>For VR controllers:</b>
+```
 <a-entity class="controller" laser-controls="hand: left" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 <a-entity class="controller" laser-controls="hand: right" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 ``` 
