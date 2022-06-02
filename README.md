@@ -15,27 +15,23 @@ To enable cross-section component:
 <a-entity class="clickable" cross-section gltf-model="#room" rotation="0 180 0" position="0 -1.5 -3" scale="0.02 0.02 0.02">
 ``` 
 
-If necessary define the parameters of the attribute, for example:
+If necessary define the parameters of the attribute. It has two parameters: distance - a distance from camera to object; animationTime: time for animation of the cross-section. For example:
 ``` 
 cross-section="distance: 3; animationTime: 4000" 
 ```
-3. Make sure to make primitive, where drawing will take place, is <b>clickable if used with VR</b> or <b>withouth if it is mobile or desktop</b>. In other words apply a class name and use cursor and raycaster:
+3. Make sure to add click event:
 
-VR: 
 ```
-<a-plane texture-painter class="clickable" position="0 1.5 -4" rotation="0 0 0" width="5" height="4"></a-plane>
+For mouse: <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
+For pinters: 
 <a-entity class="controller" laser-controls="hand: left" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 <a-entity class="controller" laser-controls="hand: right" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
-```
-Mobile/Desktop: 
-```
-<a-plane texture-painter position="0 1.5 -4" rotation="0 0 0" width="5" height="4"></a-plane>
-<a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
-```
-Text recoginition and image generation based on text are enabled through API endpoints. See how everything works in the provided example. 
+``` 
 
 ### **Tech Stack**
-The project is powered by AFrame and HuggingFace hosted API endpoints.
+The project is powered by AFrame.
+
+### **Credits**
 
 ### **Demo**
-To see the application at work: [Demo application](https://webvr-drawing.glitch.me/)
+To see the application at work: [Demo application](https://cross-section-component.glitch.me/)
