@@ -1,11 +1,11 @@
 # A-Frame Cross-Section Component
-<img alt="Screenshot" src="img/screenshot.jpg" width="600">
+<img alt="Screenshot" src="img/screenshot.jpg" width="800">
 
 ### **Description / Rationale**
-This is an exploratory project, which demonstrates the drawing and text recognition possibilities in web VR environment. Drawing part represents the reduced and slightly adapted version of Marlon Lückert's <a href="https://github.com/marlon360/whiteboard-vr">"Whiteboard VR"</a>. Text recognition part is made available through Microsoft’s <a href="https://huggingface.co/spaces/nielsr/TrOCR-handwritten">TrOCR model</a>, hosted on HuggingFace. Recognized text is turned into image through <a href="https://huggingface.co/spaces/smangrul/Text-To-Image">another AI model</a> hosted on HuggingFace. 
+This is a small A-Frame component, which allows to create cross-sections/dissections and show what is inside of a 3D model/object. It can be used in showing the inner of an architectural model or in anotomy classes. 
 
 ### **Instructions**
-To enable drawing component: 
+To enable cross-section component: 
 1. Attach it to the head of your html file, for example: 
 ```
 <script src="texture-painter-component.js"></script>
