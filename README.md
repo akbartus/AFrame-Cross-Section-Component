@@ -22,8 +22,10 @@ cross-section="distance: 3; animationTime: 4000"
 3. Make sure to add click event:
 
 ```
-For mouse: <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
-For pinters: 
+For mouse: 
+<a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
+
+For VR controllers: 
 <a-entity class="controller" laser-controls="hand: left" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 <a-entity class="controller" laser-controls="hand: right" raycaster="objects: .clickable;" line="color: #000000"></a-entity>
 ``` 
