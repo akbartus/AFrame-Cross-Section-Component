@@ -20,6 +20,7 @@ If necessary define the parameters of the attribute. It has two parameters: dist
 cross-section="distance: 3; animationTime: 4000" 
 ```
 3. Make sure to add click event:
+
 <b>For mouse:</b> 
 ```
 <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable;"></a-entity>
