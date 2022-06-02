@@ -2,7 +2,7 @@
 <img alt="Screenshot" src="img/screenshot.jpg" width="800">
 
 ### **Description / Rationale**
-This is a small A-Frame component, which allows to create cross-sections/dissections and show what is inside of a 3D model/object. It can be used in showing the inner of an architectural model or in anotomy classes. 
+This is a small A-Frame component, which allows to create cross-sections/dissections and show what is inside of a 3D model/object. It can be used in showing the inner of an architectural model; or in anatomy classes. 
 
 ### **Instructions**
 To enable cross-section component: 
